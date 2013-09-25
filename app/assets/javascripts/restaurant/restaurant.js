@@ -11,7 +11,7 @@ var Carts = {
         $.each(v, function(i, l){
           if($("#" + l.id + "").length == 0) {
             console.log(l)
-          $('.pending-carts').append('<li class="order"><a id="' + l.id + '" href="carts/' + l.id + '">' + 'Cart' + l.id + '</a></li>')
+          $('.pending-carts').append('<li class="order"><a id="' + l.id + '" href="carts/' + l.id + '">' + l.id + '</a></li>')
           }
         })
       })
